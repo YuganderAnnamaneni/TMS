@@ -9,5 +9,11 @@ namespace TMS.Services.Models
 
         [JsonProperty("pwd")]
         public string Password { get; set; }
+
+        [JsonProperty("user")]
+        public string UserName { get; set; }
+
+        [JsonProperty("token")]
+        public string AuthToken { get; set; }
     }
 }

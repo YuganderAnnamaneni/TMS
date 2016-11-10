@@ -4,8 +4,8 @@ namespace TMS.Services.Models
 {
     public class DeviceStatus
     {
-        [JsonProperty("deviceid")]
-        public string ВeviceId { get; set; }
+        [JsonProperty("device_id")]
+        public string DeviceId { get; set; }
 
         [JsonProperty("ac_on")]
         public string Ac_On { get; set; }

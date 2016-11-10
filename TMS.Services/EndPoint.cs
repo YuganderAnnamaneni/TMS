@@ -1,4 +1,6 @@
-﻿namespace TMS.Services
+﻿using System.Configuration;
+
+namespace TMS.Services
 {
     /// <summary>
     /// TMS Endpoints contains api action methods for each endpoint.

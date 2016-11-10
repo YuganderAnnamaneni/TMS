@@ -1,9 +1,13 @@
 ﻿using Newtonsoft.Json;
+using System.Collections.Generic;
 
 namespace TMS.Services.Models
 {
     public class Device
     {
+        [JsonProperty("deviceid")]
+        public string DeviceId { get; set; }
+
         [JsonProperty("heartbeat_time")]
         public string HeartBeatTime { get; set; }
 
@@ -12,5 +16,8 @@ namespace TMS.Services.Models
 
         [JsonProperty("reset_heartbeat_every_period")]
         public string ResetHeartBeatEveryPeriod { get; set; }
+
+        [JsonProperty("attendance")]
+        public List<Attendance> AttendanceList { get; set; }
     }
 }
