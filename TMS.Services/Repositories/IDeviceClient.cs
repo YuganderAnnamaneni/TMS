@@ -19,7 +19,7 @@ namespace TMS.Services.Repositories
 
         BaseResponse<List<Device>> GetDeviceByDeviceId(string deviecId);
 
-        BaseResponse<List<Device>> GetAttendanceByDeviceId(string deviecId, string startTime, string endTime, string startCounter);
+        BaseResponse<Device> GetAttendanceByDeviceId(string deviecId, string startTime, string endTime, string startCounter);
 
         BaseResponse<List<DeviceStatus>> GetAllDeviceStatus();
 
