@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMS.Services.Client", "TMS.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMS.Services.Scheduler", "TMS.Services.Scheduler\TMS.Services.Scheduler.csproj", "{29C9C17F-1978-4A8B-BBB9-C473175AFCD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMS.Web.Client", "TMS.Web.Client\TMS.Web.Client.csproj", "{D1FE9835-168E-4617-912F-87B08BD40F57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{29C9C17F-1978-4A8B-BBB9-C473175AFCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29C9C17F-1978-4A8B-BBB9-C473175AFCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29C9C17F-1978-4A8B-BBB9-C473175AFCD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1FE9835-168E-4617-912F-87B08BD40F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1FE9835-168E-4617-912F-87B08BD40F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1FE9835-168E-4617-912F-87B08BD40F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1FE9835-168E-4617-912F-87B08BD40F57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
