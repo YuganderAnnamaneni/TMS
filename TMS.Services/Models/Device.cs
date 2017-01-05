@@ -5,7 +5,7 @@ namespace TMS.Services.Models
 {
     public class Device
     {
-        [JsonProperty("deviceid")]
+        [JsonProperty("device_id")]
         public string DeviceId { get; set; }
 
         [JsonProperty("heartbeat_time")]

@@ -62,6 +62,7 @@
     <Compile Include="Repositories\UserClient.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="DB\TMS.DB" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
