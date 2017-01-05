@@ -1,0 +1,4 @@
+﻿CREATE TABLE [dbo].[Devices]
+(
+	[Id] INT NOT NULL PRIMARY KEY
+)
